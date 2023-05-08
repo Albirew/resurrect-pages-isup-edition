@@ -1,15 +1,16 @@
-[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENCE) - [![MAXVERSION](https://img.shields.io/badge/Firefox-57+-green.svg)](https://addons.mozilla.org/firefox/addon/resurrect-pages-isup-edition/)
+# resurrect-pages-isup-edition
 
-# Documentation
 
+
+# Description
 Dead pages, broken links, the scourge of the internet.
 Powerhouse sites like Slashdot and Digg can bring a server to its knees.
 What do we do when a page is dead but we still want to see it?
 Call in the clerics, and perform a resurrection ceremony!
 Or, the easier route, use this extension.
 
-## Features
 
+# Features
  * Searches through six page cache/mirrors:
    * [Google Cache](http://www.google.com/) (plus text-only version)
    * [The Internet Archive](http://web.archive.org/)
@@ -26,6 +27,7 @@ Hit back and try another one!
    * In the context (right-click) menu for the current page, and for all links.
    * In the toolbar, just customize it to drag the button in.
    * With the keyboard: press `Ctrl-Shift-U`
+
 
 # Changelog
 
@@ -71,9 +73,10 @@ Hit back and try another one!
    * Typo in some languages for Gigablast
    * Removed yahoo cache (yahoo uses bing cache now)
    * Removed coral CDN (almost alsways dead)
- * Version 2.1 (Sep 19, 2013)
+ * Version 2.1 (Sep 19, 2013) FORK
    * Firefox 22+ compatibility
    * Added isup.me provider
+
  * Version 2.0.7 (Jun 26, 2011)
    * Firefox 5.0 compatibility.
    * Updated translations from babelzilla.org.
@@ -130,3 +133,16 @@ Hit back and try another one!
    * Integrate into the net error page.
  * Version 0.5.1
    * Bugfix, broken shortcut key.
+
+
+# Contact
+Mastodon: https://soshar.dess.ga/@Albirew
+Twitter: https://twitter.com/Albirew
+
+# Installation
+Use either release file or install from Firefox Addons:
+https://addons.mozilla.org/firefox/addon/resurrect-pages-isup-edition/
+
+# Licence
+MIT Licence (https://choosealicense.com/licenses/mit/)
+
