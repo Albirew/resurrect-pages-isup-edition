@@ -19,14 +19,9 @@
     "description": "Resurrect this link"
   },
 
-  "resurrectGoogle": {
-    "message": "with Google",
-    "description": "with Google"
-  },
-
-  "resurrectGoogleText": {
-    "message": "with Google (text only)",
-    "description": "with Google (text only)"
+  "resurrectCachew": {
+    "message": "with Cachew",
+    "description": "with Cache-view"
   },
 
   "resurrectArchive": {

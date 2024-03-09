@@ -5,25 +5,19 @@ openInEnum = {
 	NEW_WINDOW  : 3
 }
 let openIn = openInEnum.CURRENT_TAB;
-
 chrome.storage.local.get('openIn', item => {
   if (item.openIn) {
     openIn = item.openIn;
   }
 });
-
 function logLastError() {
   if (chrome.runtime.lastError) {
     console.error('Resurrect error:', chrome.runtime.lastError);
   }
 }
 
-function genGoogleUrl(url) {
-  return 'https://www.google.com/search?q=cache:' + encodeURIComponent(url);
-}
-
-function genGoogleTextUrl(url) {
-  return 'https://www.google.com/search?strip=1&q=cache:' + encodeURIComponent(url);
+function genCachewUrl(url) {
+  return 'https://cachedview.nl/#' +url;
 }
 
 function genIaUrl(url) {

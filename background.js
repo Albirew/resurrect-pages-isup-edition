@@ -11,8 +11,7 @@ chrome.storage.local.get('openIn', item => {
     }, logLastError);
 
     for (let [name, id, icon] of [
-      ['Google', 'google', 'google'],
-      ['GoogleText', 'googletext', 'google'],
+      ['Cachew', 'cachew', 'cachew'],
       ['Archive', 'archive', 'waybackmachine'],
       ['ArchiveList', 'archivelist', 'waybackmachine'],
       ['ArchiveIs', 'archiveis', 'archiveis'],
@@ -62,10 +61,8 @@ chrome.contextMenus.onClicked.addListener(function(info, tab) {
   } else if (id.endsWith('-link')) {
     url = info.linkUrl;
   }
-  if (id.startsWith('resurrect-google-')) {
-    goToUrl(genGoogleUrl(url), openIn, tab.id);
-  } else if (id.startsWith('resurrect-googletext-')) {
-    goToUrl(genGoogleTextUrl(url), openIn, tab.id);
+  if (id.startsWith('resurrect-cachew-')) {
+    goToUrl(genCachewUrl(url), openIn, tab.id);
   } else if (id.startsWith('resurrect-archive-')) {
     goToUrl(genIaUrl(url), openIn, tab.id);
   } else if (id.startsWith('resurrect-archivelist-')) {

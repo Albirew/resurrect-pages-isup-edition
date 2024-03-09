@@ -12,7 +12,7 @@ Or, the easier route, use this extension.
 
 # Features
  * Searches through six page cache/mirrors:
-   * [Google Cache](http://www.google.com/) (plus text-only version)
+   * [Cachew](https://cachedview.nl/)
    * [The Internet Archive](http://web.archive.org/)
    * [WebCite](http://www.webcitation.org/)
    * [archive.is](https://archive.is/)
@@ -31,6 +31,8 @@ Hit back and try another one!
 
 # Changelog
 
+ * Version 7
+   * Replaced Google with Cachew (Cache-view)
  * Version 6.2.1
    * Specify openerTabId for opened tabs
  * Version 6.2
