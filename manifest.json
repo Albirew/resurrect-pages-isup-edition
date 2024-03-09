@@ -3,11 +3,11 @@
   "name": "__MSG_extensionName__",
   "short_name": "__MSG_extensionName__",
   "description": "__MSG_extensionDescription__",
-  "version": "7",
+  "version": "7.0.1",
   "default_locale": "en",
   "homepage_url": "https://github.com/Albirew/resurrect-pages",
 
-  "applications": {
+  "browser_specific_settings": {
     "gecko": {
       "id": "resurrect-pages@albirew.fr",
       "strict_min_version": "57.0"
