@@ -33,6 +33,7 @@ Hit back and try another one!
 
  * Version 7
    * Replaced Google with Cachew (Cache-view)
+   * Added sexy dark mode on popup
  * Version 6.2.1
    * Specify openerTabId for opened tabs
  * Version 6.2
