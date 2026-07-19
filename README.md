@@ -16,7 +16,6 @@ Or, the easier route, use this extension.
    * [The Internet Archive](http://web.archive.org/)
    * [WebCite](http://www.webcitation.org/)
    * [archive.is](https://archive.is/)
-   * [Memento Time Travel](http://timetravel.mementoweb.org/)
    * [Down for everyone?](http://www.isup.me/)
 
 Of course, not every page can be in every cache.
@@ -31,6 +30,8 @@ Hit back and try another one!
 
 # Changelog
 
+ * Version 8
+   * Removed broken provider MementoWeb
  * Version 7
    * Replaced Google with Cachew (Cache-view)
    * Added sexy dark mode on popup
