@@ -49,11 +49,6 @@
     "description": "with WebCite"
   },
 
-  "resurrectMementoWeb": {
-    "message": "avec Memento Timetravel",
-    "description": "with Memento Timetravel"
-  },
-
   "resurrectIsUp": {
     "message": "Vérifier si le site est mort",
     "description": "with isup.me"

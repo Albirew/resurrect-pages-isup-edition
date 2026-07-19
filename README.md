@@ -1,14 +1,11 @@
 # resurrect-pages-isup-edition
 
-
-
 # Description
 Dead pages, broken links, the scourge of the internet.
 Powerhouse sites like Slashdot and Digg can bring a server to its knees.
 What do we do when a page is dead but we still want to see it?
 Call in the clerics, and perform a resurrection ceremony!
 Or, the easier route, use this extension.
-
 
 # Features
  * Searches through six page cache/mirrors:
@@ -26,6 +23,17 @@ Hit back and try another one!
    * In the context (right-click) menu for the current page, and for all links.
    * In the toolbar, just customize it to drag the button in.
    * With the keyboard: press `Ctrl-Shift-U`
+
+# Contact
+Mastodon: [@Albirew@soshar.dess.ga](https://soshar.dess.ga/@Albirew)
+BlueSky: [@soshar.albirew.fr](https://bsky.app/profile/did:plc:6qjy6epkiicf2qeftbdwkqtb)
+
+# Installation
+Use either release file or install from Firefox Addons:
+https://addons.mozilla.org/firefox/addon/resurrect-pages-isup-edition/
+
+# Licence
+MIT Licence (https://choosealicense.com/licenses/mit/)
 
 
 # Changelog
@@ -138,16 +146,3 @@ Hit back and try another one!
    * Integrate into the net error page.
  * Version 0.5.1
    * Bugfix, broken shortcut key.
-
-
-# Contact
-Mastodon: https://soshar.dess.ga/@Albirew
-Twitter: https://twitter.com/Albirew
-
-# Installation
-Use either release file or install from Firefox Addons:
-https://addons.mozilla.org/firefox/addon/resurrect-pages-isup-edition/
-
-# Licence
-MIT Licence (https://choosealicense.com/licenses/mit/)
-
