@@ -42,6 +42,19 @@ function genIsUpUrl(url) {
   return 'http://isup.me/'+url;
 }
 
+function processPageUrlEdgeCases(url) {
+  if (url.startsWith('file:') || url.startsWith('about:')) {
+    return null;
+  }
+
+  if (url.startsWith('about:reader?url=')) {
+    return decodeURIComponent(url.replace('about:reader?url=', ''));
+  }
+
+  return url;
+}
+
+
 function setOpenIn(where) {
   openIn = where;
   chrome.storage.local.set({openIn: openIn}, logLastError);

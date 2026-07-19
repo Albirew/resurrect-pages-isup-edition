@@ -32,6 +32,7 @@ Hit back and try another one!
 
  * Version 8
    * Removed broken provider MementoWeb
+   * Handle `file://` and reader URLs.
  * Version 7
    * Replaced Google with Cachew (Cache-view)
    * Added sexy dark mode on popup
