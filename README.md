@@ -25,8 +25,8 @@ Hit back and try another one!
    * With the keyboard: press `Ctrl-Shift-U`
 
 # Contact
-Mastodon: [@Albirew@soshar.dess.ga](https://soshar.dess.ga/@Albirew)
-BlueSky: [@soshar.albirew.fr](https://bsky.app/profile/did:plc:6qjy6epkiicf2qeftbdwkqtb)
+- Mastodon: [@Albirew@mamot.fr](https://mamot.fr/@Albirew)
+- BlueSky: [@soshar.albirew.fr](https://bsky.app/profile/did:plc:6qjy6epkiicf2qeftbdwkqtb)
 
 # Installation
 Use either release file or install from Firefox Addons:
