@@ -39,6 +39,11 @@ MIT Licence (https://choosealicense.com/licenses/mit/)
 
 # Changelog
 
+ * Version 10 (October 19, 2026)
+   * Add Ghost Archive
+   * Add Australian Web Archive
+   * Bug fix: detect/handle Reader mode
+ * Version 9 has been skipped to align with upstream
  * Version 8
    * Removed broken provider MementoWeb
    * Handle `file://` and reader URLs.
