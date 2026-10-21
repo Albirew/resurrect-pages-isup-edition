@@ -13,6 +13,7 @@ Or, the easier route, use this extension.
    * [The Internet Archive](http://web.archive.org/)
    * [WebCite](http://www.webcitation.org/)
    * [archive.is](https://archive.is/)
+   * [Ghost Archive](https://ghostarchive.org/)
    * [Down for everyone?](http://www.isup.me/)
 
 Of course, not every page can be in every cache.

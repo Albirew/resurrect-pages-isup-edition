@@ -17,6 +17,7 @@ chrome.storage.local.get('openIn', item => {
       ['ArchiveIs', 'archiveis', 'archiveis'],
       ['WebCitation', 'webcitation', 'webcitation'],
       ['IsUp', 'isup', 'isup'],
+      ['Ghost Archive', 'ghostarchive', 'ghostarchive'],
     ]) {
       chrome.contextMenus.create({
         contexts: [context],
@@ -73,6 +74,8 @@ chrome.contextMenus.onClicked.addListener(function(info, tab) {
     goToUrl(genIsUpUrl(url), openIn, tab.id);
   } else if (id.startsWith('resurrect-webcitation-')) {
     goToUrl(genWebCiteUrl(url), openIn, tab.id);
+  } else if (id.startsWith('resurrect-ghostarchive-')) {
+    goToUrl(genGhostArchiveUrl(url), openIn, tab.id);
   } else if (id.startsWith('resurrect-current-tab-')) {
     setOpenIn(openInEnum.CURRENT_TAB);
   } else if (id.startsWith('resurrect-new-tab-')) {
