@@ -56,6 +56,18 @@ function processPageUrlEdgeCases(url) {
 }
 
 
+function genNlaUrl(url) {
+  let dateStr = (new Date()).toISOString().replace(/-|T|:|\..*/g, '');
+  return 'https://webarchive.nla.gov.au/awa/'+dateStr+'/'+url;
+}
+
+
+function genNlaListUrl(url) {
+  let dateStr = (new Date()).toISOString().replace(/-|T|:|\..*/g, '');
+  return 'https://webarchive.nla.gov.au/awa/*/'+url;
+}
+
+
 function setOpenIn(where) {
   openIn = where;
   chrome.storage.local.set({openIn: openIn}, logLastError);
